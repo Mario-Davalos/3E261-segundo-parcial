@@ -1,16 +1,15 @@
-#include <iostream>
+/*#include <iostream>
+#include <seriefocos.hpp>
 #include <foco.hpp>
 
 int main (int argc. char const *argv[])
+{
+    seriefocos serie;
 
-foco foquito;
+    serie.encenderfocos();
+    serie.mostrarfocos();
+    serie.apagarfocos();
+    serie.mostrafocos();
 
-foquito.encender();
-foquito.apagarleerestado();
-
-std::cout
-<<"estado foco:"
-<<foquito.leerestado()
-<<std::endl;
-
-return 0;
+}
+return 0;*/

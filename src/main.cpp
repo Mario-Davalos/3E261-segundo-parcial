@@ -1,15 +1,7 @@
-/*#include <iostream>
-#include <seriefocos.hpp>
-#include <foco.hpp>
+#include <iostream>
 
-int main (int argc. char const *argv[])
+
+int main(argc, argv)
 {
-    seriefocos serie;
-
-    serie.encenderfocos();
-    serie.mostrarfocos();
-    serie.apagarfocos();
-    serie.mostrafocos();
-
+    return EXIT_SUCCESS;
 }
-return 0;*/

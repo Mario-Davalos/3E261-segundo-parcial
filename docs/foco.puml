@@ -6,11 +6,23 @@ class foco{
     -estadofoco estadofoco
     +encender()
     +apagar()
+    +Estadofoco leerestado()
+}
 
 }
-class estadofoco
-        -estadofoco estado 
+class Estadofoco
+
+class serie de focos{
+    -foco focos[10]
+    +mostrarfocos()
+    +encenderfocos ()
+    +apagarfocos()
+}
 
 usuario o-- foco 
 foco *-- estadofoco
+estdofoco--|> boooleano
+seriefocos"1"*--"10" focos
+usuario o-- seriefocos
+
 @enduml

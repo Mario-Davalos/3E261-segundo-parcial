@@ -1,7 +1,18 @@
-#include <iostream>
+@startuml foco
 
+class usuario 
 
-int main(argc, argv)
-{
-    return EXIT_SUCCESS;
+class foco{
+    -estadofoco estadofoco
+    +encender()
+    +apagar()
+
 }
+class estadofoco
+        -estadofoco estado 
+
+usuario o-- foco 
+foco *-- estadofoco
+
+
+@enduml

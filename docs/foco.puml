@@ -5,10 +5,11 @@ class usuario
 class foco{
     -estadofoco estadofoco
     +encender()
-    +apagar8
+    +apagar()
 
 }
 class estadofoco
+        -estadofoco estado 
 
 usuario o-- foco 
 foco *-- estadofoco

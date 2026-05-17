@@ -2,39 +2,13 @@
 
 using namespace std;
 
-int main (int argc, char* argv[])
-{
-int a;
-cout << &a <<endl;
-cout << sizeof(a) << endl;
+int main(int argc, char* argv[]) {
+    int a = 5;
+    int* direccion;
 
-    cout << "int: " <<sizeof(char) << endl;
-
-    cout<<"double:" <<sizeof(double) <<endl;
-
-    cout<<"float:" <<sizeof(float) <<endl;
-
-    cout<<"long:" <<sizeof(long) <<endl;
-
-    cout<<"char:" <<sizeof(char) <<endl;
-
-    cout<<"booleano:" <<sizeof(bool) <<endl;
-      cout << "int: " <<sizeof(char*) << endl;
-
-    cout<<"double:" <<sizeof(double*) <<endl;
-
-    cout<<"float:" <<sizeof(float*) <<endl;
-
-    cout<<"long:" <<sizeof(long*) <<endl;
-
-    cout<<"char:" <<sizeof(char*) <<endl;
-
-    cout<<"booleano:" <<sizeof(bool*) <<endl;
-
-     int* direccion;
-
-     cout <<direccion<< endl;
-     cout <<&direccion << endl;
-
-return 0;
+    cout << direccion << endl;  // Imprime la coordenada (direccion en si)
+    cout << &direccion << endl; // Imprime la ubicacion de la variable direccion
+    cout << *direccion << endl; // Accede al valor almacenado en esa coordenada
+    
+    return 0;
 }

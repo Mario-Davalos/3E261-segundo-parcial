@@ -1,18 +1,15 @@
-@startuml foco
+#include <iostream>
+#include <SerieFocos.hpp>
 
-class usuario 
+using namespace std;
 
-class foco{
-    -estadofoco estadofoco
-    +encender()
-    +apagar()
+int main (int argc, char* argv[])
+{
+    SerieFocos serie;
+    serie.EncenderFocos();
+    serie.MostrarFocos();
+    serie.ApagarFocos();
+    serie.MostrarFocos();
 
+    return 0;
 }
-class estadofoco
-        -estadofoco estado 
-
-usuario o-- foco 
-foco *-- estadofoco
-
-
-@enduml

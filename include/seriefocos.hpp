@@ -16,11 +16,9 @@ void mostrarFocos()
     {
         cout <<f.leerEstado()<<endl;
     }
-
     }
     void EncenderFocos(){
         for (auto &&f:focos)
-
     {
     f.encender();
     }

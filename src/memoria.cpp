@@ -10,5 +10,6 @@ int main(int argc, char* argv[]) {
     cout << &direccion << endl; // Imprime la ubicacion de la variable direccion
     cout << *direccion << endl; // Accede al valor almacenado en esa coordenada
     
+    cout<<malloc(4) <<endl;
     return 0;
 }
